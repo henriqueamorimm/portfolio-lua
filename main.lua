@@ -1,7 +1,7 @@
 local http = require("http")
 local server = require("socket").bind("*", 8080)
 
-print("Servidor Lua rodando em http://localhost:8080 :)")
+print("Servidor WS Lua rodando em http://localhost:8080 :)")
 
 while true do
   local client = server:accept()
